@@ -23,7 +23,7 @@ def read_dir(root,path,filenames):
 start="""<html>
 <head>
 <title>
-叶片卫士
+目录
 </title>
 </head>
 <body>"""
@@ -33,7 +33,7 @@ end="""</body>
 """
 
 if __name__=="__main__":
-    path = 'D:\\APP DATA\\Seafile\\Seafile\\D-PD-19014-10.叶片故障监测系统'
+    path = 'D:\\APP DATA'
     root=path+'\\'
     outputfile='目录.html'
 
